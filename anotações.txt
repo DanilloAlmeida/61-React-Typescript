@@ -1,1 +1,12 @@
 anotações do curso de react com typescript
+
+npx create-react-app my-app --template typescript
+
+
+sudo npm cache clean -f         >> limpar o cache
+sudo npm install -g n
+sudo n latest
+sudo n stable                   >> recomendado
+---------------------------------------------------
+apt-get remove nodejs --purge
+apt-get remove npm --purge
