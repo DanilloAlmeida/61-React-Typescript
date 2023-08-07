@@ -1,12 +1,18 @@
 anotações do curso de react com typescript
 
-npx create-react-app my-app --template typescript
+
+npx create-react-app alura-studies --template typescript --use-npm
+
+--------------------------------------------------------------
+REINSTALANDO O NPM, E NODE:
 
 
+apt-get remove nodejs --purge
+apt-get remove npm --purge
 sudo npm cache clean -f         >> limpar o cache
 sudo npm install -g n
 sudo n latest
 sudo n stable                   >> recomendado
+reinicia o terminal 
+node -v
 ---------------------------------------------------
-apt-get remove nodejs --purge
-apt-get remove npm --purge
